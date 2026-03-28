@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2024",
+		"strict": true,
+		"skipLibCheck": false,
+		"forceConsistentCasingInFileNames": true,
+		"strictNullChecks": false
+	}
+}
