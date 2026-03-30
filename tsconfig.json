@@ -3,8 +3,8 @@
 		"module": "commonjs",
 		"target": "es2024",
 		"strict": true,
-		"skipLibCheck": false,
+		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true,
-		"strictNullChecks": false
+		"strictNullChecks": true
 	}
 }
