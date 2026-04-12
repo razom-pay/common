@@ -5,7 +5,9 @@ import { GRPC_CLIENT_PREFIX } from './constants/grpc.constants'
 import { GrpcClientFactory } from './factory/grpc-client.factory'
 import { GRPC_CLIENTS } from './registry/grpc.registry'
 
-@Module({})
+@Module({
+	imports: [ConfigService]
+})
 export class GrpcModule {
 	static register(clients: Array<keyof typeof GRPC_CLIENTS>): DynamicModule {
 		return {
