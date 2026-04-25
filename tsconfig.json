@@ -5,6 +5,7 @@
 		"strict": true,
 		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true,
-		"strictNullChecks": true
+		"strictNullChecks": true,
+		"types": ["jest", "node"]
 	}
 }
