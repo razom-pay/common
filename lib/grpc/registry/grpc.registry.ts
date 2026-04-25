@@ -16,9 +16,9 @@ export const GRPC_CLIENTS = {
 		protoPath: PROTO_PATHS.USERS,
 		env: 'USERS_GRPC_URL'
 	},
-	COMMUNITY_PACKAGE: {
-		package: 'community.v1',
-		protoPath: PROTO_PATHS.COMMUNITY,
-		env: 'COMMUNITY_GRPC_URL'
+	COMMUNITIES_PACKAGE: {
+		package: 'communities.v1',
+		protoPath: PROTO_PATHS.COMMUNITIES,
+		env: 'COMMUNITIES_GRPC_URL'
 	}
 } as const
