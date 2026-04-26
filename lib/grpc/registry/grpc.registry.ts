@@ -20,5 +20,10 @@ export const GRPC_CLIENTS = {
 		package: 'communities.v1',
 		protoPath: PROTO_PATHS.COMMUNITIES,
 		env: 'COMMUNITIES_GRPC_URL'
+	},
+	ESCROW_PACKAGE: {
+		package: 'escrow.v1',
+		protoPath: PROTO_PATHS.ESCROW,
+		env: 'ESCROW_GRPC_URL'
 	}
 } as const
