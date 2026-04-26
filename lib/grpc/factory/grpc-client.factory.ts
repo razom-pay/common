@@ -12,7 +12,17 @@ export class GrpcClientFactory {
 	createClient(options: { package: string; protoPath: string; url: string }) {
 		return ClientProxyFactory.create({
 			transport: Transport.GRPC,
-			options: options
+			options: {
+				...options,
+				loader: {
+					longs: Number,
+					enums: String,
+					defaults: true,
+					arrays: true,
+					objects: true,
+					oneofs: true
+				}
+			}
 		}) as ClientGrpc
 	}
 
