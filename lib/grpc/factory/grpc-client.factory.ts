@@ -16,7 +16,7 @@ export class GrpcClientFactory {
 				...options,
 				loader: {
 					longs: Number,
-					enums: String,
+					enums: Number,
 					defaults: true,
 					arrays: true,
 					objects: true,
